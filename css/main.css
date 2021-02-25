@@ -119,7 +119,7 @@
 /* Es-11 */
 .ex-11-icon{
     transform: rotate(0);
-    transition: 2s;
+    transition: .2s;
 }
 
 .ex-11-icon:hover{
