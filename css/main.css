@@ -108,12 +108,11 @@
 
 /* Es-10 */
 .ex-10-icon{
-    animation: mymove 2s infinite;
-    transform: rotate(0);
+    animation: mymove 1s infinite linear;
 }
 
 @keyframes mymove{
-   50% {transform: rotate(360deg);}
+   0% {transform: rotate(360deg);}
 }
 
 /* Es-11 */
@@ -125,4 +124,20 @@
 .ex-11-icon:hover{
     transform: rotate(300deg);
     transition: 2s;
+}
+
+/* Es-12 */
+.ex-12-top-white{
+    animation: spin 3s;
+}
+
+@keyframes spin{
+    0%{
+        top: 0;
+        left: 10%;
+    }
+    50%{
+        top: 0;
+        left: 60%;
+    }
 }
