@@ -1,0 +1,8 @@
+/* Es-1 */
+.sfondo-rosso{
+    transition: background 1s linear;
+}
+
+.sfondo-rosso:hover{
+    background: red;
+}
