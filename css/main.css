@@ -9,7 +9,7 @@
 
 /* Es-2 */
 .ex-2-square{
-    transform: width 1s linear 1s;
+    transform: width .3s linear .3s;
 }
 
 .ex-2-square:hover{
@@ -17,3 +17,13 @@
 }
 
 /* Es-3 */
+.ex-3-square{
+    transition: border-radius .8s;
+                
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* Es-4 */
