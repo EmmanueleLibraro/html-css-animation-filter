@@ -70,3 +70,25 @@
         filter: grayscale(0);
     }
 }
+
+/* Es-8 */
+.ex-8-img{
+    transition: border-radius 1s;
+    animation-name: cambio-2;
+    animation-duration: 4s;
+}
+
+@keyframes cambio-2{
+    from{
+        filter: grayscale(0);
+    }
+    to{
+        filter: grayscale(1);
+    }
+}
+
+.ex-8-img:hover{
+    border-radius: 5%;
+    filter: grayscale(1);
+}
+/* Es-9 */
